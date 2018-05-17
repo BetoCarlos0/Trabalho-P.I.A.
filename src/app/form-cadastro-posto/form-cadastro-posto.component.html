@@ -1,0 +1,57 @@
+<div id="cadastro">
+    <h2>Cadastrar novo posto</h2>
+
+    <form (ngSubmit)="cadastrarPosto()">
+      <div>
+        <label for="id">Id</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.id" name="id">
+      </div>
+    
+      <div>
+        <label for="nome">Nome</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.nome" name="nome">
+      </div>
+    
+      <div>
+        <label for="numero">Numero</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.numero" name="numero">
+      </div>
+    
+      <div>
+        <label for="bairro">Bairro</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.bairro" name="bairro">
+      </div>
+    
+      <div>
+        <label for="cidade">Cidade</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.cidade" name="cidade">
+      </div>
+    
+      <div>
+        <label for="cep">Cep</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.cep" name="cep">
+      </div>
+    
+      <div>
+        <label for="funcionario">Funcionamento</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.funcionamento" name="funcionamento">
+      </div>
+    
+      <div>
+        <label for="horario">Horario</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.horario" name="horario">
+      </div>
+    
+      <div>
+        <label for="telefone">Telefone</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.telefone" name="telefone">
+      </div>
+    
+      <div>
+        <label for="nota">Nota</label><br>
+        <input type="text" id="id" [(ngModel)]="posto.nota" name="nota">
+      </div>
+      <button class="button" type="submit"><span>Cadastrar</span></button>
+  </form>
+</div>
+
